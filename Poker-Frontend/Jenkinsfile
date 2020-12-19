@@ -11,12 +11,12 @@ pipeline {
     }
 
       stage('e2e tests') {
-            steps { sh 'ng e2e' }
+            steps { sh 'cd Poker-Frontend && npm run-script e2e' }
         }
 
 
     stage('Build') {
-      steps { sh 'ng build' }
+      steps { sh 'cd Poker-Frontend && npm run-script build' }
     }
   }
 }
