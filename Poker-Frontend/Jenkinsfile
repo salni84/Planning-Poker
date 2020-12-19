@@ -7,7 +7,7 @@ pipeline {
   stages {
 
     stage('Install') {
-      steps { sh 'cd Poker-Frontend && npm install' }
+      steps { sh 'cd Poker-Frontend && sudo npm install' }
     }
 
       stage('e2e tests') {
