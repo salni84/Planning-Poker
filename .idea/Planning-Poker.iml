@@ -5,6 +5,8 @@
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/Planning-Poker-Frontend/dist" />
       <excludeFolder url="file://$MODULE_DIR$/Planning-Poker-Frontend/tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/Poker-Frontend/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/Poker-Frontend/tmp" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
