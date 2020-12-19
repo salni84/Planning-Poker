@@ -10,16 +10,16 @@ pipeline {
     stage('Test') {
       parallel {
         stage('Static code analysis') {
-            steps { sh 'npm run-script lint' }
+            steps { sh 'npm run lint' }
         }
         stage('e2e tests') {
-            steps { sh 'ng e2e' }
+            steps { sh 'npm run e2e' }
         }
       }
     }
 
     stage('Build') {
-      steps { sh 'npm run-script build' }
+      steps { sh 'npm run build' }
     }
   }
 }
