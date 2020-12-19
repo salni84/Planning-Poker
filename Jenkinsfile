@@ -6,5 +6,9 @@ pipeline {
                 sh 'npm --version'
             }
         }
+        stage('e2e tests') {
+            steps {
+                sh 'ng ng e2e'
+        }
     }
 }
