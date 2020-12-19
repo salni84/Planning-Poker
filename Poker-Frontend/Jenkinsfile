@@ -1,4 +1,5 @@
 pipeline {
+
   agent {
     docker { image 'node:latest' }
   }
@@ -7,11 +8,10 @@ pipeline {
     stage('Install') {
       steps { sh 'npm install' }
     }
-}
+
       stage('e2e tests') {
             steps { sh 'npm run e2e' }
         }
-      }
 
 
     stage('Build') {
