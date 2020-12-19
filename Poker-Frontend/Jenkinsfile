@@ -4,25 +4,19 @@ pipeline {
     docker { image 'node:latest' }
   }
 
-
   stages {
 
-   dir('Poker-Frontend'){
-      sh 'pwd'
-    }
-
-
     stage('Install') {
-      steps { sh 'npm install' }
+      steps { sh 'cd Poker-Frontend && npm install' }
     }
 
       stage('e2e tests') {
-            steps { sh 'ng e2e' }
+            steps { sh 'cd Poker-Frontend && ng e2e' }
         }
 
 
     stage('Build') {
-      steps { sh 'ng build' }
+      steps { sh 'cd Poker-Frontend && ng build' }
     }
   }
 }
