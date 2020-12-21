@@ -42,12 +42,5 @@ export class CardsComponent implements OnInit {
     else if (id === 0) {
       this.toggle0 = !this.toggle0
     }
-
-
-
-
   }
-
-
-
 }
