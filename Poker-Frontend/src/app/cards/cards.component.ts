@@ -1,4 +1,5 @@
 import {Component, OnInit} from '@angular/core';
+import {ConnectionService} from "../connection.service";
 
 @Component({
   selector: 'app-cards',
@@ -14,14 +15,19 @@ export class CardsComponent implements OnInit {
   toggle8: boolean = false;
   toggle0: boolean = false;
 
+  buttonClicked: boolean = false;
+
+  private username: string;
+  public votes: any = [];
+  freezeCards: boolean = false;
 
 
-  constructor() { }
+  constructor(private connectionService: ConnectionService) { }
 
   ngOnInit(): void {
   }
 
-  selectCard(id:number) {
+  selectCard(id:number):void {
 
     if (id === 1) {
       this.toggle1 = !this.toggle1;
@@ -71,5 +77,27 @@ export class CardsComponent implements OnInit {
       this.toggle8 = false;
       this.toggle1 = false;
     }
+  }
+
+
+  setEstimation(vote: number):void {
+    this.connectionService.connection.next( {
+      user: this.username, type: 'votings', text: vote
+    });
+
+    this.votes.push(vote);
+    this.buttonClicked = true;
+    this.freezeCards = true
+  }
+
+  newRound():void {
+    this.freezeCards = false;
+    this.buttonClicked = false;
+    this.toggle1 = false;
+    this.toggle2 = false;
+    this.toggle3 = false;
+    this.toggle5 = false;
+    this.toggle8 = false;
+    this.toggle0 = false;
   }
 }
