@@ -1,22 +1,22 @@
 <div class="container">
   <div class="cards">
 
-    <mat-card [ngClass]="{'clicked': toggle1, '': !toggle1}" class="card"  (click)="setEstimation(1)" >
+    <mat-card [ngClass]="{'clicked': toggle1, '': !toggle1}" class="card"  (click)="selectCard(1)" >
       <label>1</label>
     </mat-card>
-    <mat-card [ngClass]="{'clicked': toggle2, '': !toggle2}" class="card"  (click)="setEstimation(2)">
+    <mat-card [ngClass]="{'clicked': toggle2, '': !toggle2}" class="card"  (click)="selectCard(2)">
       <label>2</label>
     </mat-card>
-    <mat-card [ngClass]="{'clicked': toggle3, '': !toggle3}" class="card"  (click)="setEstimation(3)">
+    <mat-card [ngClass]="{'clicked': toggle3, '': !toggle3}" class="card"  (click)="selectCard(3)">
       <label>3</label>
     </mat-card>
-    <mat-card [ngClass]="{'clicked': toggle5, '': !toggle5}" class="card"  (click)="setEstimation(5)">
+    <mat-card [ngClass]="{'clicked': toggle5, '': !toggle5}" class="card"  (click)="selectCard(5)">
       <label>5</label>
     </mat-card>
-    <mat-card [ngClass]="{'clicked': toggle8, '': !toggle8}" class="card"  (click)="setEstimation(8)">
+    <mat-card [ngClass]="{'clicked': toggle8, '': !toggle8}" class="card"  (click)="selectCard(8)">
       <label>8</label>
     </mat-card>
-    <mat-card [ngClass]="{'clicked': toggle0, '': !toggle0}" class="card"  (click)="setEstimation(0)">
+    <mat-card [ngClass]="{'clicked': toggle0, '': !toggle0}" class="card"  (click)="selectCard(0)">
       <img style="height: 40px" src="assets/coffee.png"  >
     </mat-card>
 
