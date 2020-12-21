@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  background-color: darkgreen;
+  justify-content: center;
+}
+
+.cards {
+  display: flex;
+}
+
+
+.card {
+  width: 180px;
+  height: 250px;
+  background-image: url("src/assets/playcard.png");
+  background-size: cover;
+  margin: 20px;
+  font-size: 80px;
+  font-family: "Gujarati MT", serif;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  cursor: pointer;
+}
+
+mat-card:hover {
+  color: red;
+  border-color: yellow;
+  border-style: solid;
+}
+
+
+.clicked {
+  border-style: dotted;
+  border-color: black;
+  background-image: url("src/assets/cardclicked.png");
+  background-size: 220px;
+  font-size: 60px;
+  padding-top: 63px;
+}
