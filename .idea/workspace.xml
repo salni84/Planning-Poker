@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f783bab0-6b96-49f2-99f6-ae889d244b9c" name="Default Changelist" comment="fist commit">
-      <change afterPath="$PROJECT_DIR$/WebSocketServer/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebSocketServer/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebSocketServer/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebSocketServer/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Poker-Frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Poker-Frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Poker-Frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Poker-Frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebSocketServer/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebSocketServer/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +25,15 @@
   <component name="FavoritesManager">
     <favorites_list name="CodeIris Favorites" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
@@ -38,22 +50,34 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/Planning-Poker-Frontend/node_modules/typescript/lib" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/WebSocketServer/src" />
+    </key>
+  </component>
   <component name="RunManager" selected="npm.Angular CLI Server">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -88,6 +112,7 @@
       <method v="2" />
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -99,6 +124,7 @@
       <option name="presentableId" value="Default" />
       <updated>1608390774367</updated>
       <workItem from="1608390776572" duration="2055000" />
+      <workItem from="1608563032434" duration="3695000" />
     </task>
     <task id="LOCAL-00001" summary="1st component">
       <created>1608391579562</created>
@@ -125,7 +151,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
