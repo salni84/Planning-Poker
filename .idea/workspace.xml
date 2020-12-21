@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f783bab0-6b96-49f2-99f6-ae889d244b9c" name="Default Changelist" comment="fist commit">
-      <change afterPath="$PROJECT_DIR$/WebSocketServer/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebSocketServer/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Poker-Frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Poker-Frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Poker-Frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Poker-Frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebSocketServer/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/WebSocketServer/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebSocketServer/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/WebSocketServer/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +120,7 @@
       <option name="presentableId" value="Default" />
       <updated>1608390774367</updated>
       <workItem from="1608390776572" duration="2055000" />
-      <workItem from="1608563032434" duration="3695000" />
+      <workItem from="1608563032434" duration="5473000" />
     </task>
     <task id="LOCAL-00001" summary="1st component">
       <created>1608391579562</created>
