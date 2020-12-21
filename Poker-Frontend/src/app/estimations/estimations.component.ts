@@ -35,7 +35,7 @@ export class EstimationsComponent implements OnInit {
   }
 
 
-  calculateAverage(votes): number{
+  calculateAverage(votes): any{
     const sum = votes.reduce((a, b) => {
       return a + b;
     });

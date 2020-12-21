@@ -22,4 +22,13 @@ describe('EstimationsComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should calculate right average',  () => {
+
+    const votes = [2, 3, 4];
+    expect(component.calculateAverage(votes)).toEqual(3);
+
+  });
+
+
 });
