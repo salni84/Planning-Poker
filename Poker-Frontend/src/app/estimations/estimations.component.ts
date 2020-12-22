@@ -23,7 +23,7 @@ export class EstimationsComponent implements OnInit {
       }
 
       else if (message.type === 'votings'){
-        this.votes.push(/*message.user + ' ' +*/ message.text);
+        this.votes.push(message.user + ' ' + message.text);
       }
       else {
         console.log('keine Message');
@@ -36,11 +36,26 @@ export class EstimationsComponent implements OnInit {
 
 
   calculateAverage(votes): any{
-    const sum = votes.reduce((a, b) => {
+
+    const estimations = this.getValueOfVote(votes)
+
+    const average = estimations.reduce((a, b) => {
       return a + b;
     });
-    this.result = sum / votes.length;
+    this.result = average / estimations.length;
+
 
     return this.result;
+
+  }
+
+  private getValueOfVote(votes) {
+    return votes.map(singleVote => {
+      if (typeof singleVote === 'string') {
+        return parseInt(singleVote.slice(-1))
+      } else {
+        return singleVote;
+      }
+    });
   }
 }
