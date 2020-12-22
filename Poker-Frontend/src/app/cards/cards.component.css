@@ -8,7 +8,6 @@
   display: flex;
 }
 
-
 .card {
   width: 180px;
   height: 250px;
@@ -29,7 +28,6 @@ mat-card:hover {
   border-style: solid;
 }
 
-
 .clicked {
   border-style: dotted;
   border-color: black;
@@ -37,4 +35,26 @@ mat-card:hover {
   background-size: 220px;
   font-size: 60px;
   padding-top: 63px;
+}
+
+.voteButton {
+  height: 40px;
+  width: auto;
+  margin-top: 50px;
+  border-color: white;
+  border-style: solid;
+}
+
+.buttonClicked {
+  background-color: red;
+  pointer-events: none;
+}
+
+.freezeCards {
+  pointer-events: none;
+}
+
+.newRound {
+  height: 40px;
+  margin-top: 50px;
 }

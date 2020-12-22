@@ -4,7 +4,7 @@ const WebSocket = require('ws');
 
 const port = 6969;
 const server = http.createServer(express);
-const webSocketServer = new WebSocket.Server({ server })
+const webSocketServer = new WebSocket.Server({ server });
 
 webSocketServer.on('connection', (webSocketClient) => {
     webSocketClient.on('message', (incomingMessage) => {
@@ -19,8 +19,8 @@ webSocketServer.on('connection', (webSocketClient) => {
             }
         })
     })
-})
+});
 
 server.listen(port, () => {
     console.log(`Server is listening on ${port}!`)
-})
+});
