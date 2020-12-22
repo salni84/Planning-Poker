@@ -8,10 +8,10 @@ node_js:
 
 cache:
   directories:
-    - Poker-Frontend/node_modules
+    - node_modules
 
 install:
-  - cd Poker-Frontend && npm install
+  - npm install
 
 script:
-  - cd Poker-Frontend && npm run test -- --watch=false --no-progress --browsers=ChromeHeadlessNoSandbox
+  - npm run test -- --watch=false --no-progress --browsers=ChromeHeadlessNoSandbox
