@@ -4,7 +4,7 @@ import { browser, logging } from 'protractor';
 describe('workspace-project App', () => {
   let page: AppPage;
 
-/*  beforeEach(() => {
+  beforeEach(() => {
     page = new AppPage();
   });
 
@@ -20,5 +20,5 @@ describe('workspace-project App', () => {
     expect(logs).not.toContain(jasmine.objectContaining({
       level: logging.Level.SEVERE,
     } as logging.Entry));
-  });*/
+  });
 });
