@@ -1,7 +1,6 @@
 .container {
-  display: flex;
+
   background-color: darkgreen;
-  justify-content: center;
 }
 
 .cards {
@@ -11,7 +10,7 @@
 .card {
   width: 180px;
   height: 250px;
-  background-image: url("src/assets/playcard.png");
+  background-image: url("../../assets/images/playcard.png");
   background-size: cover;
   margin: 20px;
   font-size: 80px;
@@ -31,7 +30,7 @@ mat-card:hover {
 .clicked {
   border-style: dotted;
   border-color: black;
-  background-image: url("src/assets/cardclicked.png");
+  background-image: url("../../assets/images/cardclicked.png");
   background-size: 220px;
   font-size: 60px;
   padding-top: 63px;
@@ -56,5 +55,25 @@ mat-card:hover {
 
 .newRound {
   height: 40px;
+  margin-right: 50px;
+  cursor: pointer;
+}
+
+.user {
+  background-color: green;
+  width: 200px;
+  margin: 20px;
+  color: white;
+  padding-top: 10px;
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.name-label {
+  color: white;
+}
+
+.buttons {
   margin-top: 50px;
+  display: inline-flex;
 }

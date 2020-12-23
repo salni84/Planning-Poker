@@ -1,0 +1,15 @@
+.title {
+  font-size: 40px;
+  font-family: "Gujarati MT", serif;
+  margin-top: 20px;
+  margin-right: 20px;
+
+}
+
+.header {
+  display: flex;
+  margin: 10px;
+  padding: 10px;
+
+}
+

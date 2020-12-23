@@ -1,4 +1,4 @@
-import {Component, Input, OnInit} from '@angular/core';
+import {Component, Input, OnInit, Output, EventEmitter, OnChanges, SimpleChanges} from '@angular/core';
 import {ConnectionService} from "../connection.service";
 
 @Component({
@@ -6,12 +6,14 @@ import {ConnectionService} from "../connection.service";
   templateUrl: './estimations.component.html',
   styleUrls: ['./estimations.component.css']
 })
-export class EstimationsComponent implements OnInit {
+export class EstimationsComponent implements OnInit, OnChanges {
 
   @Input() votes;
+  @Input() resetAverage;
+  public averageEstimation: number;
 
   public messages: any;
-  public averageEstimation: number;
+
 
   constructor(connectionService: ConnectionService) {
 
@@ -32,6 +34,10 @@ export class EstimationsComponent implements OnInit {
   }
 
   ngOnInit(): void {
+  }
+
+  ngOnChanges(changes: SimpleChanges): void {
+    this.averageEstimation = this.resetAverage
   }
 
 
@@ -63,14 +69,14 @@ export class EstimationsComponent implements OnInit {
 
   private calcAverage(estimations){
     const average = this.calcSum(estimations) / estimations.length;
-    const fibonacci:number[] = [0, 1, 2, 3, 5, 8]
+    const fibonacci:number[] = [0, 1, 2, 3, 5, 8];
     let nextFibonacci = 0;
 
     fibonacci.forEach((fibonacci) => {
       if(average <= fibonacci && nextFibonacci == 0){
         nextFibonacci = fibonacci;
       }
-    })
+    });
     return nextFibonacci;
   }
 

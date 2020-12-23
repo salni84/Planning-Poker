@@ -8,21 +8,35 @@ import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from "@angular/material/button";
 import { EstimationsComponent } from './estimations/estimations.component';
 import {FormsModule} from "@angular/forms";
+import { HeaderComponent } from './header/header.component';
+import {MatIconModule} from "@angular/material/icon";
+import {MatToolbarModule} from "@angular/material/toolbar";
+import {MatFormFieldModule} from "@angular/material/form-field";
+import {MatInputModule} from "@angular/material/input";
+import {MatAutocompleteModule} from "@angular/material/autocomplete";
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CardsComponent,
-    EstimationsComponent
+    EstimationsComponent,
+    HeaderComponent,
+    FooterComponent
   ],
-    imports: [
-        BrowserModule,
-        AppRoutingModule,
-        BrowserAnimationsModule,
-        MatCardModule,
-        MatButtonModule,
-        FormsModule
-    ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatCardModule,
+    MatButtonModule,
+    FormsModule,
+    MatIconModule,
+    MatToolbarModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatAutocompleteModule
+  ],
   providers: [],
   bootstrap: [AppComponent]
 })
