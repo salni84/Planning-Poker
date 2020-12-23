@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f783bab0-6b96-49f2-99f6-ae889d244b9c" name="Default Changelist" comment="fist commit">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Poker-Frontend/src/app/connection.service.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Poker-Frontend/src/app/connection.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Poker-Frontend/src/app/estimations/estimations.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Poker-Frontend/src/app/estimations/estimations.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Poker-Frontend/src/app/estimations/estimations.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Poker-Frontend/src/app/estimations/estimations.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Poker-Frontend/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Poker-Frontend/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Poker-Frontend/src/app/cards/cards.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/Poker-Frontend/src/app/cards/cards.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Poker-Frontend/src/app/cards/cards.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Poker-Frontend/src/app/cards/cards.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Poker-Frontend/src/app/cards/cards.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Poker-Frontend/src/app/cards/cards.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebSocketServer/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/WebSocketServer/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Poker-Frontend/src/app/estimations/estimations.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Poker-Frontend/src/app/estimations/estimations.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,27 +56,17 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="javascript.nodejs.core.library.configured.version" value="12.18.3" />
+    <property name="javascript.nodejs.core.library.configured.version" value="15.3.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.14.14" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="ts.external.directory.path" value="$PROJECT_DIR$/Planning-Poker-Frontend/node_modules/typescript/lib" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/Poker-Frontend/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/WebSocketServer/src" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="npm.Angular CLI Server">
     <configuration name="E2E Tests (Planning-Poker-Frontend)" type="JavaScriptTestRunnerProtractor">
@@ -120,7 +99,7 @@
       <method v="2" />
     </configuration>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -133,6 +112,8 @@
       <updated>1608390774367</updated>
       <workItem from="1608390776572" duration="2055000" />
       <workItem from="1608563032434" duration="5473000" />
+      <workItem from="1608645948150" duration="1267000" />
+      <workItem from="1608708271767" duration="12048000" />
     </task>
     <task id="LOCAL-00001" summary="1st component">
       <created>1608391579562</created>
@@ -166,16 +147,18 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/Planning-Poker-Frontend" />
+    </ignored-roots>
     <MESSAGE value="1st component" />
     <MESSAGE value="fist commit" />
     <MESSAGE value="angular project" />

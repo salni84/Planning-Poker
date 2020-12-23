@@ -17,8 +17,8 @@ export class CardsComponent implements OnInit {
 
   buttonClicked: boolean = false;
 
-  private username: string;
-  public votes: any = [];
+  username: string;
+  public votes: any[] = [];
   freezeCards: boolean = false;
 
 
