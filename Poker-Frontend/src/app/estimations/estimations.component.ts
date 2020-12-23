@@ -66,11 +66,11 @@ export class EstimationsComponent implements OnInit {
     const fibonacci:number[] = [0, 1, 2, 3, 5, 8]
     let nextFibonacci = 0;
 
-    for(let i = 0; i < fibonacci.length; i++){
-      if(average <= fibonacci[i] && nextFibonacci == 0){
-        nextFibonacci = fibonacci[i];
+    fibonacci.forEach((fibonacci) => {
+      if(average <= fibonacci && nextFibonacci == 0){
+        nextFibonacci = fibonacci;
       }
-    }
+    })
     return nextFibonacci;
   }
 
