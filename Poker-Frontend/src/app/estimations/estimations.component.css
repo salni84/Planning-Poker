@@ -6,7 +6,8 @@
 .result {
   font-size: 20px;
   width: 30px;
-  margin: 20px;
+  margin-left: 20px;
+  margin-top: 10px;
   color: yellow;
   font-weight: bold;
 }
@@ -18,7 +19,11 @@
 .votes {
   font-size: 20px;
   width: 30px;
-  margin: 20px;
+  margin-top: 10px;
   color: white;
   font-weight: bold;
+}
+
+.averageButton {
+  height: 40px;
 }

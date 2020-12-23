@@ -1,5 +1,6 @@
-import {Component, OnInit} from '@angular/core';
+import {Component, EventEmitter, OnInit} from '@angular/core';
 import {ConnectionService} from "../connection.service";
+import {Subject} from "rxjs";
 
 @Component({
   selector: 'app-cards',
@@ -18,8 +19,10 @@ export class CardsComponent implements OnInit {
   buttonClicked: boolean = false;
 
   username: string;
-  public votes: any[] = [];
+  public votes: any = [];
   freezeCards: boolean = false;
+
+  public resetAverage = [];
 
 
   constructor(private connectionService: ConnectionService) { }
@@ -99,5 +102,10 @@ export class CardsComponent implements OnInit {
     this.toggle5 = false;
     this.toggle8 = false;
     this.toggle0 = false;
+
+    this.votes = [];
+    this.resetAverage = null;
+
+
   }
 }
