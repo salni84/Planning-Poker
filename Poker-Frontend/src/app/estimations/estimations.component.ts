@@ -11,7 +11,7 @@ export class EstimationsComponent implements OnInit {
   @Input() votes;
 
   public messages: any;
-  public result: number;
+  public averageEstimation: number;
 
   constructor(connectionService: ConnectionService) {
 
@@ -36,20 +36,15 @@ export class EstimationsComponent implements OnInit {
 
 
   calculateAverage(votes): any{
+    const estimations = this
+      .removeUsernames(votes)
+      .filter(this.removeZeros());
 
-    const estimations = this.getValueOfVote(votes)
-
-    const average = estimations.reduce((a, b) => {
-      return a + b;
-    });
-    this.result = average / estimations.length;
-
-
-    return this.result;
-
+    return this.averageEstimation = this.calcAverage(estimations);
   }
 
-  private getValueOfVote(votes) {
+
+  private removeUsernames(votes) {
     return votes.map(singleVote => {
       if (typeof singleVote === 'string') {
         return parseInt(singleVote.slice(-1))
@@ -57,5 +52,31 @@ export class EstimationsComponent implements OnInit {
         return singleVote;
       }
     });
+  }
+
+
+  private removeZeros() {
+    return value => {
+      return value > 0
+    };
+  }
+
+  private calcAverage(estimations){
+    const average = this.calcSum(estimations) / estimations.length;
+    const fibonacci:number[] = [0, 1, 2, 3, 5, 8]
+    let nextFibonacci = 0;
+
+    for(let i = 0; i < fibonacci.length; i++){
+      if(average <= fibonacci[i] && nextFibonacci == 0){
+        nextFibonacci = fibonacci[i];
+      }
+    }
+    return nextFibonacci;
+  }
+
+
+  private calcSum(estimations) {
+    const reducer = (accumulator, currentValue) => accumulator + currentValue;
+    return estimations.reduce(reducer, 0);
   }
 }
