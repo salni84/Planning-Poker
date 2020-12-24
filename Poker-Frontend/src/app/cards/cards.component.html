@@ -42,10 +42,11 @@
     <button mat-flat-button color="primary" *ngIf="toggle8" class="voteButton" (click)="setEstimation(8)" [class.buttonClicked]="buttonClicked">Vote now for 8 SP!</button>
 
     <mat-card [ngClass]="{'clicked': toggle0, '': !toggle0}" class="card"  (click)="selectCard(0)">
-      <img style="height: 40px" src="assets/coffee.png"  >
+      <img style="height: 40px" src="assets/images/coffee.png"  >
     </mat-card>
     <button mat-flat-button color="primary" *ngIf="toggle0" class="voteButton" (click)="setEstimation(0)" [class.buttonClicked]="buttonClicked">Vote now for no estimation!</button>
 </div>
 </div>
+<app-text-view [username]="username"></app-text-view>
 
 

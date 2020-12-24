@@ -11,10 +11,13 @@ import {FormsModule} from "@angular/forms";
 import { HeaderComponent } from './header/header.component';
 import {MatIconModule} from "@angular/material/icon";
 import {MatToolbarModule} from "@angular/material/toolbar";
-import {MatFormFieldModule} from "@angular/material/form-field";
+import {MatFormFieldControl, MatFormFieldModule} from "@angular/material/form-field";
 import {MatInputModule} from "@angular/material/input";
 import {MatAutocompleteModule} from "@angular/material/autocomplete";
 import { FooterComponent } from './footer/footer.component';
+import { TextViewComponent } from './text-view/text-view.component';
+import {MatListModule} from "@angular/material/list";
+import {ScrollingModule} from "@angular/cdk/scrolling";
 
 @NgModule({
   declarations: [
@@ -22,7 +25,8 @@ import { FooterComponent } from './footer/footer.component';
     CardsComponent,
     EstimationsComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    TextViewComponent
   ],
   imports: [
     BrowserModule,
@@ -35,7 +39,9 @@ import { FooterComponent } from './footer/footer.component';
     MatToolbarModule,
     MatFormFieldModule,
     MatInputModule,
-    MatAutocompleteModule
+    MatAutocompleteModule,
+    MatListModule,
+    ScrollingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
