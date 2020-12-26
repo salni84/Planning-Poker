@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f783bab0-6b96-49f2-99f6-ae889d244b9c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Poker-Frontend/src/app/cards/cards.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/Poker-Frontend/src/app/cards/cards.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebSocketServer/node_modules/karma-firefox-launcher/commitlint.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebSocketServer/node_modules/karma-firefox-launcher/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebSocketServer/node_modules/karma-firefox-launcher/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebSocketServer/node_modules/karma-firefox-launcher/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebSocketServer/node_modules/karma-firefox-launcher/release.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Poker-Frontend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Poker-Frontend/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Poker-Frontend/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/Poker-Frontend/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Poker-Frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Poker-Frontend/package.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +36,7 @@
         <option value="TypeScript File" />
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="package.json" />
       </list>
     </option>
   </component>
@@ -126,7 +136,7 @@
       <workItem from="1608563032434" duration="5473000" />
       <workItem from="1608645948150" duration="1267000" />
       <workItem from="1608708271767" duration="12048000" />
-      <workItem from="1609021758623" duration="691000" />
+      <workItem from="1609021758623" duration="2055000" />
     </task>
     <task id="LOCAL-00001" summary="1st component">
       <created>1608391579562</created>
@@ -170,7 +180,21 @@
       <option name="project" value="LOCAL" />
       <updated>1609022394509</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="fist commit">
+      <created>1609022485229</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1609022485229</updated>
+    </task>
+    <task id="LOCAL-00008" summary="fist commit">
+      <created>1609022604095</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1609022604095</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

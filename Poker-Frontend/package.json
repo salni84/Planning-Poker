@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve && cd .. && cd WebSocketServer && node server.js",
     "build": "npm run ng build",
     "test": "npm run ng test",
     "lint": "npm run ng lint",
