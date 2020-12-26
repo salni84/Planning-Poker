@@ -3033,7 +3033,7 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/tchsaro1/Desktop/Semesterarbeit_2021/Planning-Poker/Poker-Frontend/src/polyfills.ts */"./src/polyfills.ts");
+module.exports = __webpack_require__(/*! /Users/tchsaro1/Desktop/poker-test/Planning-Poker/Poker-Frontend/src/polyfills.ts */"./src/polyfills.ts");
 
 
 /***/ })

@@ -486,8 +486,8 @@ module.exports = content.locals || {};
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/tchsaro1/Desktop/Semesterarbeit_2021/Planning-Poker/Poker-Frontend/node_modules/@angular/material/prebuilt-themes/indigo-pink.css */"./node_modules/@angular/material/prebuilt-themes/indigo-pink.css");
-module.exports = __webpack_require__(/*! /Users/tchsaro1/Desktop/Semesterarbeit_2021/Planning-Poker/Poker-Frontend/src/styles.css */"./src/styles.css");
+__webpack_require__(/*! /Users/tchsaro1/Desktop/poker-test/Planning-Poker/Poker-Frontend/node_modules/@angular/material/prebuilt-themes/indigo-pink.css */"./node_modules/@angular/material/prebuilt-themes/indigo-pink.css");
+module.exports = __webpack_require__(/*! /Users/tchsaro1/Desktop/poker-test/Planning-Poker/Poker-Frontend/src/styles.css */"./src/styles.css");
 
 
 /***/ })
