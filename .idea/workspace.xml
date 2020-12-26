@@ -1,10 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f783bab0-6b96-49f2-99f6-ae889d244b9c" name="Default Changelist" comment="fist commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Poker-Frontend/src/app/estimations/estimations.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Poker-Frontend/src/app/estimations/estimations.component.ts" afterDir="false" />
+    <list default="true" id="f783bab0-6b96-49f2-99f6-ae889d244b9c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Poker-Frontend/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/Poker-Frontend/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Poker-Frontend/docs/Poker-Frontend/assets/images/cardclicked.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Poker-Frontend/docs/Poker-Frontend/assets/images/coffee.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Poker-Frontend/docs/Poker-Frontend/assets/images/playcard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Poker-Frontend/docs/Poker-Frontend/assets/images/pokercards-v2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Poker-Frontend/docs/Poker-Frontend/assets/images/pokercards.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Poker-Frontend/docs/Poker-Frontend/cardclicked.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Poker-Frontend/docs/Poker-Frontend/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Poker-Frontend/docs/Poker-Frontend/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Poker-Frontend/docs/Poker-Frontend/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Poker-Frontend/docs/Poker-Frontend/main.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Poker-Frontend/docs/Poker-Frontend/playcard.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Poker-Frontend/docs/Poker-Frontend/polyfills.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Poker-Frontend/docs/Poker-Frontend/polyfills.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Poker-Frontend/docs/Poker-Frontend/runtime.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Poker-Frontend/docs/Poker-Frontend/runtime.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Poker-Frontend/docs/Poker-Frontend/styles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Poker-Frontend/docs/Poker-Frontend/styles.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Poker-Frontend/docs/Poker-Frontend/vendor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Poker-Frontend/docs/Poker-Frontend/vendor.js.map" beforeDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,6 +87,18 @@
       <recent name="$PROJECT_DIR$/WebSocketServer/src" />
     </key>
   </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
   <component name="RunManager" selected="npm.Angular CLI Server">
     <configuration name="E2E Tests (Planning-Poker-Frontend)" type="JavaScriptTestRunnerProtractor">
       <config-file value="$PROJECT_DIR$/Planning-Poker-Frontend/e2e/protractor.conf.js" />
@@ -99,7 +130,7 @@
       <method v="2" />
     </configuration>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -114,6 +145,7 @@
       <workItem from="1608563032434" duration="5473000" />
       <workItem from="1608645948150" duration="1267000" />
       <workItem from="1608708271767" duration="12048000" />
+      <workItem from="1609021758623" duration="437000" />
     </task>
     <task id="LOCAL-00001" summary="1st component">
       <created>1608391579562</created>
@@ -136,23 +168,31 @@
       <option name="project" value="LOCAL" />
       <updated>1608392687538</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fist commit">
+      <created>1609021928782</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1609021928782</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -160,8 +200,8 @@
       <path value="$PROJECT_DIR$/Planning-Poker-Frontend" />
     </ignored-roots>
     <MESSAGE value="1st component" />
-    <MESSAGE value="fist commit" />
     <MESSAGE value="angular project" />
-    <option name="LAST_COMMIT_MESSAGE" value="angular project" />
+    <MESSAGE value="fist commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="fist commit" />
   </component>
 </project>
