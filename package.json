@@ -3,7 +3,8 @@
   "version": "1.0.0",
 
   "scripts": {
-    "start": "(cd WebSocketServer && npm run start) & (cd Poker-Frontend && npm run start)"
+    "start": "(cd WebSocketServer && npm run start) & (cd Poker-Frontend && npm run start)",
+    "build"
   },
 
   "dependencies": {
