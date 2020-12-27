@@ -1,10 +1,13 @@
 const express = require('express');
+const app = express();
 const http = require('http');
 const WebSocket = require('ws');
 
-const port = 6969;
+const port = process.env.PORT || 6969;
 const server = http.createServer(express);
-const webSocketServer = new WebSocket.Server({ server });
+const webSocketServer = new WebSocket.Server({ server: server });
+
+app.use(express.static(__dirname + "/"));
 
 webSocketServer.on('connection', (webSocketClient) => {
     webSocketClient.on('message', (incomingMessage) => {
